@@ -15,6 +15,6 @@ function back() {
 function calcular() {
     let resultado = document.getElementById('res').innerHTML;
     if (resultado) {
-        document.getElementById('res').innerHTML = eval(resultado);
+        document.getElementById('res').innerHTML = 'Hello World'
     }
 }
